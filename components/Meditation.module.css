@@ -1,0 +1,26 @@
+.wrap { max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 30px; }
+.durations { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+.durations button { font-family: inherit; font-size: 1rem; padding: 9px 18px; border-radius: 999px; border: 1px solid var(--border); background: transparent; color: var(--muted); cursor: pointer; transition: all .3s; }
+.durations button:hover:not(:disabled) { color: #fff; border-color: var(--border-strong); }
+.durations button:disabled { cursor: default; opacity: .6; }
+.durations .on { color: #1a1405 !important; background: linear-gradient(135deg, #c99a3e, #e9c977); border-color: transparent; opacity: 1 !important; }
+
+.stage { position: relative; width: min(84vw, 340px); aspect-ratio: 1; display: grid; place-items: center; }
+.ring { position: absolute; inset: 0; width: 100%; height: 100%; }
+.breath { position: absolute; width: 58%; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, rgba(241,220,160,.35), rgba(127,168,255,.12) 55%, transparent 72%); transform: scale(.8); transition: transform 1s; }
+.breathing { animation: breathe 10s ease-in-out infinite; }
+@keyframes breathe {
+  0% { transform: scale(.75); opacity: .6; }
+  40% { transform: scale(1.35); opacity: 1; }
+  100% { transform: scale(.75); opacity: .6; }
+}
+.center { position: relative; text-align: center; }
+.time { font-family: var(--font-serif); font-size: clamp(2.6rem, 9vw, 3.6rem); color: #f6efdc; line-height: 1.1; direction: ltr; font-variant-numeric: tabular-nums; }
+.controls { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.guide { width: 100%; text-align: center; padding: 32px; }
+.guideTitle { color: var(--gold); letter-spacing: .2em; font-size: .9rem; margin-bottom: 10px; }
+.guideText { font-family: var(--font-serif); font-size: 1.3rem; line-height: 1.9; margin: 0 0 20px; animation: fadeIn 1.6s ease; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.dots { display: flex; gap: 8px; justify-content: center; }
+.dots span { width: 7px; height: 7px; border-radius: 50%; background: rgba(217,180,90,.2); transition: background .6s; }
+.dots .dotOn { background: var(--gold); box-shadow: 0 0 8px rgba(217,180,90,.6); }
