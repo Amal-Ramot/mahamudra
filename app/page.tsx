@@ -5,7 +5,7 @@ import QuoteRotator from "@/components/QuoteRotator";
 import s from "./page.module.css";
 
 const SECTIONS = [
-  { href: "/about/", icon: "ཨཱཿ", title: "מהי מהמודרה", text: "משמעות \"החותם הגדול\", הבסיס, הדרך והפרי, ושלושת סוגי המהמודרה." },
+  { href: "/about/", icon: "ཨཱཿ", title: "מהי מהאמודרה", text: "משמעות \"החותם הגדול\", הבסיס, הדרך והפרי, ושלושת סוגי המהאמודרה." },
   { href: "/lineage/", icon: "☸", title: "שושלת הזהב", text: "מוורג'רדהרה, סרהה וטילופה, דרך נרופה, מרפה ומילרפה — ועד ימינו." },
   { href: "/texts/", icon: "༄༅", title: "טקסטי השורש", text: "שירת הגנגס, תפילת המשאלה, שש מילות העצה ועוד — מתורגמים לעברית." },
   { href: "/path/", icon: "❁", title: "הדרך והתרגול", text: "תרגולי ההכנה, שמאתה, ויפשיאנה, ההצבעה על טבע התודעה וההתנהלות." },
@@ -23,7 +23,7 @@ export default function Home() {
           <Emblem />
         </div>
         <div className={`tib ${s.tibTitle} ${s.fadeUp} ${s.d1}`}>ཕྱག་རྒྱ་ཆེན་པོ།</div>
-        <h1 className={`gold-text ${s.title} ${s.fadeUp} ${s.d2}`}>מהמודרה</h1>
+        <h1 className={`gold-text ${s.title} ${s.fadeUp} ${s.d2}`}>מהאמודרה</h1>
         <p className={`${s.subtitle} ${s.fadeUp} ${s.d3}`}>החותם הגדול — הכרת טבעה הטבעי, הצלול והחופשי של התודעה</p>
         <div className={`${s.ctas} ${s.fadeUp} ${s.d4}`}>
           <Link href="/about/" className="btn btn-solid">התחילו כאן</Link>
@@ -38,7 +38,7 @@ export default function Home() {
             <div className="eyebrow">התודעה כמו השמיים</div>
             <h2>מסורת של הכרה ישירה</h2>
             <p className="lead">
-              מהמודרה — בטיבטית <span className="tib">ཕྱག་རྒྱ་ཆེན་པོ</span> (צ'אג-גיה צ'ן-פו) — היא אחת ההוראות העמוקות של הבודהיזם הטיבטי.
+              מהאמודרה — בטיבטית <span className="tib">ཕྱག་རྒྱ་ཆེན་པོ</span> (צ'אג-גיה צ'ן-פו) — היא אחת ההוראות העמוקות של הבודהיזם הטיבטי.
               היא אינה מבקשת לבנות דבר חדש, אלא להכיר במה שכבר נמצא כאן: התודעה עצמה, ריקה וצלולה, כמו שמיים פתוחים שבהם עננים של מחשבות באים והולכים.
             </p>
             <p style={{ color: "var(--muted)" }}>
@@ -49,7 +49,7 @@ export default function Home() {
             <blockquote className="verse">
               החלל — במה הוא נשען? על דבר אינו נשען.
               <br />
-              כך גם המהמודרה: אין לה דבר להישען עליו.
+              כך גם המהאמודרה: אין לה דבר להישען עליו.
               <br />
               אל תעשה דבר — הירגע במצב הטבעי.
               <br />
@@ -85,13 +85,13 @@ export default function Home() {
         <div className="container">
           <Reveal style={{ textAlign: "center", marginBottom: 48 }}>
             <div className="eyebrow">בסיס · דרך · פרי</div>
-            <h2>שלושה פנים של מהמודרה אחת</h2>
+            <h2>שלושה פנים של מהאמודרה אחת</h2>
           </Reveal>
           <div className={s.triad}>
             {[
-              { tib: "གཞི", w: "gzhi", t: "מהמודרה של הבסיס", d: "טבע התודעה כפי שהוא מאז ומעולם — ריק, צלול ובלתי נפסק. הוא אינו משתנה בין בלבול להתעוררות." },
-              { tib: "ལམ", w: "lam", t: "מהמודרה של הדרך", d: "ההכרה בטבע הזה וההתרגלות אליו — באמצעות השקפה, מדיטציה והתנהלות, עד שההכרה נעשית טבעית." },
-              { tib: "འབྲས་བུ", w: "'bras bu", t: "מהמודרה של הפרי", d: "המימוש המלא: הבסיס מתגלה במלואו כדהרמהקאיה, ופעילות החמלה זורמת ללא מאמץ למען כל היצורים." },
+              { tib: "གཞི", w: "gzhi", t: "מהאמודרה של הבסיס", d: "טבע התודעה כפי שהוא מאז ומעולם — ריק, צלול ובלתי נפסק. הוא אינו משתנה בין בלבול להתעוררות." },
+              { tib: "ལམ", w: "lam", t: "מהאמודרה של הדרך", d: "ההכרה בטבע הזה וההתרגלות אליו — באמצעות השקפה, מדיטציה והתנהלות, עד שההכרה נעשית טבעית." },
+              { tib: "འབྲས་བུ", w: "'bras bu", t: "מהאמודרה של הפרי", d: "המימוש המלא: הבסיס מתגלה במלואו כדהרמהקאיה, ופעילות החמלה זורמת ללא מאמץ למען כל היצורים." },
             ].map((x, i) => (
               <Reveal key={x.w} delay={i * 150}>
                 <div className={`card ${s.triadItem}`}>
@@ -110,7 +110,7 @@ export default function Home() {
         <div className="container">
           <Reveal style={{ textAlign: "center", marginBottom: 48 }}>
             <div className="eyebrow">מפת המימוש</div>
-            <h2>ארבע היוגות של מהמודרה</h2>
+            <h2>ארבע היוגות של מהאמודרה</h2>
           </Reveal>
           <div className={s.yogas}>
             {[

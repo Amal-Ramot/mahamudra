@@ -1,6 +1,6 @@
 export const NAV_LINKS = [
   { href: "/", label: "בית" },
-  { href: "/about/", label: "מהי מהמודרה" },
+  { href: "/about/", label: "מהי מהאמודרה" },
   { href: "/lineage/", label: "השושלת" },
   { href: "/texts/", label: "טקסטים" },
   { href: "/path/", label: "הדרך" },

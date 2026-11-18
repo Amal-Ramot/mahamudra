@@ -7,7 +7,7 @@ export const metadata: Metadata = { title: "מילון מונחים" };
 export default function Glossary() {
   return (
     <>
-      <PageHero tib="ཚིག་མཛོད།" eyebrow="מונחים" title="מילון המהמודרה">
+      <PageHero tib="ཚིག་མཛོད།" eyebrow="מונחים" title="מילון המהאמודרה">
         המונחים המרכזיים של המסורת — בטיבטית, בתעתיק ויילי, בסנסקריט, ובהסבר עברי.
       </PageHero>
       <section className="section" style={{ paddingTop: 0 }}>

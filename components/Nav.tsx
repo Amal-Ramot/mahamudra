@@ -27,9 +27,9 @@ export default function Nav() {
   return (
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
       <div className={`container ${styles.inner}`}>
-        <Link href="/" className={styles.brand} aria-label="מהמודרה — דף הבית">
+        <Link href="/" className={styles.brand} aria-label="מהאמודרה — דף הבית">
           <span className={`tib ${styles.brandTib}`}>ཕྱག་ཆེན</span>
-          <span className={styles.brandHe}>מהמודרה</span>
+          <span className={styles.brandHe}>מהאמודרה</span>
         </Link>
         <nav className={`${styles.links} ${open ? styles.open : ""}`} aria-label="ניווט ראשי">
           {NAV_LINKS.map((l) => (

@@ -10,7 +10,7 @@ export default function Texts() {
   return (
     <>
       <PageHero tib="གཞུང་།" eyebrow="ספריית המקורות" title="טקסטי השורש">
-        שירים, תפילות והוראות של מאסטרי המהמודרה — מתורגמים לעברית מן הנוסח הטיבטי, בית אחר בית.
+        שירים, תפילות והוראות של מאסטרי המהאמודרה — מתורגמים לעברית מן הנוסח הטיבטי, בית אחר בית.
       </PageHero>
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="container">

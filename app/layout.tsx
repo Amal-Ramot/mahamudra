@@ -5,8 +5,8 @@ import Footer from "@/components/Footer";
 import Starfield from "@/components/Starfield";
 
 export const metadata: Metadata = {
-  title: { default: "מהמודרה · החותם הגדול", template: "%s · מהמודרה" },
-  description: "האתר העברי של מסורת המהמודרה — שושלת, טקסטי שורש מתורגמים מטיבטית, הדרך, ארבע היוגות ומדיטציה מודרכת.",
+  title: { default: "מהאמודרה · החותם הגדול", template: "%s · מהאמודרה" },
+  description: "האתר העברי של מסורת המהאמודרה — שושלת, טקסטי שורש מתורגמים מטיבטית, הדרך, ארבע היוגות ומדיטציה מודרכת.",
 };
 
 export const viewport: Viewport = { themeColor: "#06070f", width: "device-width", initialScale: 1 };
